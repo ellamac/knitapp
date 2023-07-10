@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+
+  background-color: beige;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar.top {
+  top: 0;
+}
+
+.navbar.bottom {
+  bottom: 0;
+}

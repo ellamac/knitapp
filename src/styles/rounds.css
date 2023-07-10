@@ -1,0 +1,17 @@
+.roundCard {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  overflow: scroll;
+}
+
+.roundCard > * {
+  padding: 0;
+  margin: 0;
+}
+
+.roundCard > button {
+  margin: 0.5em 0 0;
+}

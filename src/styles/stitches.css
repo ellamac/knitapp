@@ -1,0 +1,27 @@
+.stitches.hide {
+  display: none;
+}
+.stitches.show {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 0.5em;
+  overflow-y: auto;
+  direction: rtl;
+}
+
+.stitch {
+  flex: 1 0 15%;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 4px solid;
+  border-radius: 10px;
+}
+
+.stitch .numCont {
+  border-radius: 6px 6px 0 0;
+  border-bottom: 4px solid;
+}
+
+.stitch > * {
+  padding: 0.5em;
+}

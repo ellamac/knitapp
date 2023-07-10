@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-flow: column nowrap;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  padding: 5em 1em 5em;
+  overflow: scroll;
+}
